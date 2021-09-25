@@ -1,7 +1,7 @@
 from gingerit.gingerit import GingerIt
 import streamlit as st
 
-st.title('Grammar & Spell Checker In Python')
+st.title('Spell Checker')
 text = st.text_area("Enter Text:", value='', height=None, max_chars=None, key=None)
 parser = GingerIt()
 if st.button('Correct Sentence'):
